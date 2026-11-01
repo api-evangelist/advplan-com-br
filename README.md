@@ -1,4 +1,4 @@
-# advplan-com-br
+# AdvPlan
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-advplan-com-br is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://advplan.com.br/
+AdvPlan is a Brazilian legal‑tech platform that uses artificial intelligence to assist lawyers in managing cases, deadlines, documents, finances and client communications. The system reads publications from the DJEN (Diário de Justiça Eletrônico Nacional), automatically calculates deadlines accounting for holidays and suspensions, and presents suggested actions for attorney approval. It integrates WhatsApp, calendar sync, and offers a free 14‑day trial without requiring a credit card. AdvPlan aims to reduce operational risk for law firms by centralising workflow in a single web‑based interface.
+
+**Areas:** LegalTech · AI · Software · Brazil · LawPractice
+
+## AdvPlan on APIs.io
+
+Everything profiled for AdvPlan is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/advplan-com-br/](https://apis.io/providers/advplan-com-br/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [AdvPlan Casos API](https://apis.io/apis/advplan-com-br/advplan-com-br-casos-api/) — Processos e casos, com linha do tempo e fases
+- [AdvPlan Clientes API](https://apis.io/apis/advplan-com-br/advplan-com-br-clientes-api/) — Cadastro de clientes do escritório
+- [AdvPlan Cobranças API](https://apis.io/apis/advplan-com-br/advplan-com-br-cobran-as-api/) — Honorários e despesas
+- [AdvPlan Documentos API](https://apis.io/apis/advplan-com-br/advplan-com-br-documentos-api/) — Documentos do caso e geração a partir de modelos
+- [AdvPlan Prazos API](https://apis.io/apis/advplan-com-br/advplan-com-br-prazos-api/) — Prazos processuais. Criar prazo pela API NÃO dispensa a aprovação humana no painel.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Advplan Com Br Agentic Access](https://apis.io/agentic-access/advplan-com-br/advplan-com-br-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AdvPlan API Rules](https://apis.io/rules/advplan-com-br/advplan-com-br-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Advplan Com Br Authentication](https://apis.io/security/advplan-com-br/advplan-com-br-authentication/)
+- [Advplan Com Br Domain Security](https://apis.io/security/advplan-com-br/advplan-com-br-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Advplan Com Br Scopes](https://apis.io/scopes/advplan-com-br/advplan-com-br-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://advplan.com.br/)
+- [Documentation](https://advplan.com.br/docs)
+- [Getting started](https://advplan.com.br/cadastro)
+- [API reference](https://advplan.com.br/docs)
+- [Pricing](https://advplan.com.br/quanto-custa-software-juridico)
+- [Sign up](https://advplan.com.br/cadastro)
+
+## API Evangelist rating
+
+**Kin Score 43.2** — developing · rubric 0.26.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 44.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 23.7 |
+
+**Agent readiness 48.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/advplan-com-br/](https://apis.io/providers/advplan-com-br/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AdvPlan: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/advplan-com-br/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
